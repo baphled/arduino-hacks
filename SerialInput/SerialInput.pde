@@ -1,4 +1,15 @@
 #include <LiquidCrystal.h>
+
+/*
+  Read data from serial port and send it to an LCD.
+
+  This application was designed for the 20x4 16pin LCD
+
+*/
+
+
+// TODO: Limit characters to 200
+
 String stringIn = "";// for incoming serial data
 
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
@@ -19,7 +30,6 @@ void loop() {
     // read the incoming byte:
     stringIn = Serial.readString();
     stringToLCD();
-    /*lcd.print(stringIn);*/
   }
 }
 

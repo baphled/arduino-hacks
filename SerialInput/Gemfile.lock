@@ -4,11 +4,28 @@ GIT
   specs:
     hybridgroup-serialport (1.2.1)
 
-GEM
+GIT
+  remote: git://github.com/sferik/twitter.git
+  revision: 54bdde129d636a1310c795069bf5bf84ceecef4d
   specs:
+    twitter (4.7.0)
+      faraday (~> 0.8, < 0.10)
+      multi_json (~> 1.0)
+      simple_oauth (~> 0.2)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    faraday (0.8.7)
+      multipart-post (~> 1.1)
+    multi_json (1.7.6)
+    multipart-post (1.2.0)
+    simple_oauth (0.2.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  faraday
   hybridgroup-serialport!
+  twitter!
