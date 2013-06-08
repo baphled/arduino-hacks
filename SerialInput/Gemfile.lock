@@ -1,0 +1,14 @@
+GIT
+  remote: git://github.com/hybridgroup/ruby-serialport.git
+  revision: 97b5187457af6cf5d6580fd43d4ee5397f355614
+  specs:
+    hybridgroup-serialport (1.2.1)
+
+GEM
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hybridgroup-serialport!

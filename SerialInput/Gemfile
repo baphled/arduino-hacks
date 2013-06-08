@@ -1,0 +1,1 @@
+gem 'hybridgroup-serialport', git: 'git://github.com/hybridgroup/ruby-serialport.git'
